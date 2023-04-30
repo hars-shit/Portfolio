@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/Header.scss';
-import imglogo from '../assets/logo3.jpeg';
+
 import { Link } from "react-router-dom";
 import {FaHome} from 'react-icons/fa';
 import {BsFillArrowRightCircleFill} from 'react-icons/bs';
