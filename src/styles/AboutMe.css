@@ -1,0 +1,67 @@
+.image-container {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+  height: 100%;
+  padding: 20px 20px;
+}
+.image-container > img {
+  border-radius: 50%;
+  max-width: 100%;
+  box-shadow: 1px 0px 4px 0.6px rgb(131, 25, 230);
+}
+
+.aboutMe {
+  padding: 0px 10px;
+}
+.aboutMe > .about-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.aboutMe > .about-heading svg {
+  font-size: 30px;
+  margin-right: 5px;
+}
+.aboutMe > .about-heading > .para-heading {
+  font-size: 30px;
+  font-weight: 900;
+  margin-top: 15px;
+}
+.aboutMe > .about-heading > .para-heading:nth-child(3) {
+  color: rgb(38, 38, 165);
+}
+.aboutMe > .about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.aboutMe > .about-content > .btn {
+  height: 5vh;
+  width: 18vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid;
+  border-radius: 20px;
+  font-size: 15px;
+  background-color: rgb(98, 27, 165);
+  color: white;
+  font-weight: 900;
+}
+.aboutMe > .about-content > p:nth-child(1) {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.aboutMe > .about-content > p:nth-child(2) {
+  font-size: 15px;
+  font-weight: 700;
+}/*# sourceMappingURL=AboutMe.css.map */

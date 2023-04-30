@@ -1,0 +1,106 @@
+.form-div {
+  width: 100%;
+  padding: 0px 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  > .form-heading {
+    display: flex;
+    gap: 5px;
+    font-size: 30px;
+    font-weight: 700;
+
+    > svg {
+      font-size: 35px;
+      margin-top: 4px;
+      margin-right: 5px;
+    }
+    > .para-heading{
+         color: rgb(38, 38, 165);
+    }
+  }
+  > .form-container {
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    padding: 30px 10px;
+    justify-content: center;
+    align-items: center;
+
+    > form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+
+      > .input-container {
+        position: relative;
+        border: 1px solid;
+        border-radius: 5px;
+        background-color: rgb(162, 255, 224);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        padding-left: 10px;
+        > svg {
+          background: none;
+          font-size: 22px;
+        }
+        > input {
+          border: none;
+         background-blend-mode: color-burn;
+          width: 250px;
+          height: 50px;
+          outline: none;
+          background-color: rgb(162, 255, 224);
+        }
+      }
+      > .input-container:nth-child(4) {
+        height: 150px;
+        gap: 15px;
+
+        > svg {
+          align-self: flex-start;
+          margin-top: 15px;
+        }
+        > input {
+          align-self: flex-start;
+        }
+      }
+      
+      > .form-submit {
+        align-self: flex-end;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid;
+        border-radius: 20px;
+           width: 18vh;
+           background-color: rgb(98, 27, 165);
+        
+    > button {
+            border: none;
+            border: 1px solid;
+        border-radius: 20px;
+          color: white;
+          border: none;
+          background-color: rgb(98, 27, 165);
+
+      > .connect-icon{
+        background: none;
+        margin-left: 5px;
+      }
+      }
+    }
+    }
+  }
+}
+

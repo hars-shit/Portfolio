@@ -1,0 +1,8 @@
+.footer {
+  background-color: rgb(1, 1, 74);
+}
+.footer > .upper-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=Footer.css.map */

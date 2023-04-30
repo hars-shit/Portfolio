@@ -1,0 +1,31 @@
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    > p{
+        font-size: 30px;
+        font-weight: 700;
+        color: rgb(41, 20, 20);
+    }
+    > .projects-container{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        
+        // grid-template-columns: auto auto;
+
+        > button {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-template-columns: auto auto;
+            width: 40vh;
+            height: fit-content;
+
+            > img{
+                width: 100%;
+            }
+        }
+    }
+}

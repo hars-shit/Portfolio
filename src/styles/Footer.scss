@@ -1,0 +1,98 @@
+.footer{
+    background-color: rgb(1, 1, 51);
+  
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    > .upper-footer{
+        padding: 20px 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 15px;
+
+        > .portfolio-container{
+            display: flex;
+            justify-content: center;
+            align-items:flex-start;
+            flex-direction: column;
+            > p{
+                color: white;
+                font-size: 13px;
+            }
+            > .portfolio-heading{
+               font-weight: 700;
+                font-size: 20px;
+            }
+        }
+        > .quick-links{
+            display: flex;
+            gap: 5px;
+        flex-direction: column;
+            > #link-heading{
+                font-weight: 700;
+                font-size: 20px;
+            }
+            > .link{ 
+                font-size: 13px;
+
+                color: white;
+                text-decoration: none;
+            }
+        }
+        > .contact{
+            display: flex;
+            gap: 5px;
+            flex-direction: column;
+            > p{
+                font-size: 20px;
+                font-weight: 700;
+            }
+            > a{
+                text-decoration: none;
+                color: white;
+                > svg{
+                    font-size: 20px;
+                    color: rgb(164, 204, 55);
+                }
+            }
+        }
+        > .follow-container{
+            display: flex;
+            gap: 15px;
+            >a{
+                border: none;
+                outline: none;
+                >button{
+                    border:1px solid;
+                    border-radius: 50%;
+                    width: 35px;
+                    height: 35px;
+                    >svg{
+                        color: rgb(1, 1, 104);
+                    }
+                }
+            }
+        }
+    }
+    > .lower-footer{
+        width: 80%;
+        text-align: center;
+        padding: 10px 10px;
+        border-top: 1px solid;
+        border-color: rgb(101, 101, 139);;
+        > p{
+            display: flex;
+            justify-content: center;
+            font-size: 10px;
+            > p{
+                color: rgb(164, 204, 55); 
+            }
+        } 
+    }
+}

@@ -1,0 +1,97 @@
+.form-div {
+  width: 100%;
+  padding: 0px 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form-div > .form-heading {
+  display: flex;
+  gap: 5px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.form-div > .form-heading > svg {
+  font-size: 35px;
+  margin-top: 4px;
+  margin-right: 5px;
+}
+.form-div > .form-heading > .para-heading {
+  color: rgb(38, 38, 165);
+}
+.form-div > .form-container {
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  padding: 30px 10px;
+  justify-content: center;
+  align-items: center;
+}
+.form-div > .form-container > form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-div > .form-container > form > .input-container {
+  position: relative;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: rgb(162, 255, 224);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding-left: 10px;
+}
+.form-div > .form-container > form > .input-container > svg {
+  background: none;
+  font-size: 22px;
+}
+.form-div > .form-container > form > .input-container > input {
+  border: none;
+  background-blend-mode: color-burn;
+  width: 250px;
+  height: 50px;
+  outline: none;
+  background-color: rgb(162, 255, 224);
+}
+.form-div > .form-container > form > .input-container:nth-child(4) {
+  height: 150px;
+  gap: 15px;
+}
+.form-div > .form-container > form > .input-container:nth-child(4) > svg {
+  align-self: flex-start;
+  margin-top: 15px;
+}
+.form-div > .form-container > form > .input-container:nth-child(4) > input {
+  align-self: flex-start;
+}
+.form-div > .form-container > form > .form-submit {
+  align-self: flex-end;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 20px;
+  width: 18vh;
+  background-color: rgb(98, 27, 165);
+}
+.form-div > .form-container > form > .form-submit > button {
+  border: none;
+  border: 1px solid;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  background-color: rgb(98, 27, 165);
+}
+.form-div > .form-container > form > .form-submit > button > .connect-icon {
+  background: none;
+  margin-left: 5px;
+}/*# sourceMappingURL=Form.css.map */
