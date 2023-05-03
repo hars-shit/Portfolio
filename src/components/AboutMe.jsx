@@ -19,7 +19,7 @@ export default function AboutMe(){
             <div className="about-content">
                 <p>I'm Harshit</p>
                 <p>Front End Developer</p>
-                <p>I am a Front End Developer based in Almora,Uttarakhand.I am pursueing B.Tech from Institute of Technology Gopeshwar from Gopeshwar. I am very passionate about improving my coding skills & developing websites.I build Websites using React. Working for myself to improve my skills. Love to build user interfaces.</p>                
+                <p>I am a Front End Developer based in Almora,Uttarakhand.I am pursuing B.Tech from Institute of Technology Gopeshwar from Gopeshwar. I am very passionate about improving my coding skills & developing websites.I build Websites using React. Working for myself to improve my skills. Love to build user interfaces.</p>                
                 <button className="btn">Resume</button>
             </div>
         </div>
