@@ -1,5 +1,5 @@
 import React from "react";
-import profileImage from "../assets/p.jpeg";
+import profileImage from "../assets/abc.jpeg";
 import {FaUser} from 'react-icons/fa'
 import '../styles/AboutMe.scss'
 export default function AboutMe(){
