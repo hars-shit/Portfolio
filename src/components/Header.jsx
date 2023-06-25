@@ -25,9 +25,9 @@ export default function Header(){
       </div>
 
       <div className="off-data">
-        <Link className="off-link"><BsFillArrowRightCircleFill /> &nbsp;About</Link>
-        <Link className="off-link"><BsFillArrowRightCircleFill /> &nbsp;Projects</Link>
-        <Link className="off-link"><BsFillArrowRightCircleFill /> &nbsp;Get in Touch</Link>
+        <Link to={"AboutMe"} className="off-link"><BsFillArrowRightCircleFill /> &nbsp;About</Link>
+        <Link to={"https://github.com/hars-shit"} className="off-link"><BsFillArrowRightCircleFill /> &nbsp;Projects</Link>
+        <Link to={"mailto:upadhyayharshit@gmail.com"} className="off-link"><BsFillArrowRightCircleFill /> &nbsp;Get in Touch</Link>
       </div>
     </div>
   </div>

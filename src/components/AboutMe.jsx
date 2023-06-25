@@ -20,7 +20,7 @@ export default function AboutMe(){
                 <p>I'm Harshit</p>
                 <p>Front End Developer</p>
                 <p>I am a Front End Developer based in Almora,Uttarakhand.I am pursuing B.Tech from Institute of Technology Gopeshwar from Gopeshwar. I am very passionate about improving my coding skills & developing websites.I build Websites using React. Working for myself to improve my skills. Love to build user interfaces.</p>                
-                <button className="btn">Resume</button>
+                <button className="btn"><a href="https://drive.google.com/file/d/1kYF0OAQtnsIlzvQNy23uYo9p4xnuUjvu/view?usp=drivesdk">Resume</a></button>
             </div>
         </div>
         </>
